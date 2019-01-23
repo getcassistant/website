@@ -1,15 +1,15 @@
 {
-  "name": "april",
+  "name": "cassistant-front",
   "version": "1.0.0",
-  "description": "April Template",
-  "author": "Pasquale Vitiello <pasqualevitiello@gmail.com>",
-  "license": "GPLv3",
+  "description": "Cassistant landing",
+  "author": "Miguel Piedrafita <soy@miguelpiedrafita.com>",
+  "license": "private",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/pasqualevitiello/april.git"
+    "url": "https://github.com/m1guelpf/cassistant-front.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/pasqualevitiello/april/issues"
+    "url": "https://github.com/m1guelpf/cassistant-front/issues"
   },
   "scripts": {
     "dev": "npm run development",
@@ -30,9 +30,10 @@
     "sass-loader": "7.*",
     "vue-template-compiler": "^2.5.22"
   },
-  "homepage": "https://bitbucket.org/pasqualevitiello/april#readme",
-  "main": ".eslintrc.js",
+  "homepage": "https://cassistant.co",
   "dependencies": {
-    "axios": "^0.18.0"
+    "animejs": "^2.2.0",
+    "axios": "^0.18.0",
+    "scrollreveal": "^4.0.5"
   }
 }

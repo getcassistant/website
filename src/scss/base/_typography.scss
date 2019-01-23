@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,500,700|Fira+Sans:600');
+
 html {
 	@include font-size(5, mobile, true, true);
 	@if ( get-font-size(5, desktop) != get-font-size(5, mobile) ) {

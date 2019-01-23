@@ -1,3 +1,5 @@
+import ScrollReveal from 'scrollreveal'
+import anime from 'animejs'
 (() => {
   const doc = document.documentElement
 
@@ -6,7 +8,6 @@
 
   // Reveal animations
   if (document.body.classList.contains('has-animations')) {
-    /* global ScrollReveal */
     const sr = window.sr = ScrollReveal()
 
     sr.reveal('.feature, .testimonial', {
@@ -17,7 +18,6 @@
       interval: 100
     })
 
-    /* global anime */
     const heroAnimation = anime.timeline({
       autoplay: false
     })
