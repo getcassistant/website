@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CASsistant</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Fira+Sans:600" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 	<script src="https://unpkg.com/animejs@2.2.0/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
@@ -81,12 +81,14 @@
 	                        <p class="hero-paragraph">For helping you record all your CAS hours, use <strong>CASsistant</strong>.</p>
 							<form method="POST" action="https://app.cassistant.co/early-access" class="hero-form field field-grouped">
 								<div class="control control-expanded">
-									<input class="input" type="email" name="email" placeholder="We'll notify you when we're ready">
+									<input class="input" type="email" name="email" placeholder="We'll notify you when we're ready" required>
 								</div>
 								<div class="control">
 									<button type="submit" class="button button-primary button-block">Notify me</a>
 								</div>
 							</form>
+							<p class="form-error"></p>
+							<p class="form-success"></p>
 						</div>
 						<div class="hero-illustration">
 							<div class="hero-shape hero-shape-1">
@@ -465,12 +467,14 @@
                         </div>
                         <form method="POST" action="https://app.cassistant.co/early-access" class="footer-form newsletter-form field field-grouped">
                             <div class="control control-expanded">
-                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
+                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;" required>
                             </div>
                             <div class="control">
                                 <button class="button button-primary button-block button-shadow" type="submit">Early access</button>
                             </div>
-                        </form>
+						</form>
+						<p class="form-error" style="max-width: 440px;margin: 0 auto;"></p>
+						<p class="form-success" style="max-width: 440px;margin: 0 auto;"></p>
                     </div>
                 </div>
             </section>
@@ -554,6 +558,6 @@
         </footer>
     </div>
 
-    <script src="dist/js/main.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

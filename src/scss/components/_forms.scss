@@ -79,6 +79,24 @@
     }
 }
 
+.form-error {
+	color: #E3342F;
+	font-size: .75rem;
+}
+
+.form-error:not([data-error]) {
+	display: none;
+}
+
+.form-success {
+	color: #38C172;
+	font-size: .75rem;
+}
+
+.form-success:not([data-success]) {
+	display: none;
+}
+
 @include media( '>medium' ) {
 
     .field-grouped {
