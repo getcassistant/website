@@ -33,7 +33,7 @@
   "homepage": "https://cassistant.co",
   "dependencies": {
     "animejs": "^2.2.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "scrollreveal": "^4.0.5"
   }
 }
